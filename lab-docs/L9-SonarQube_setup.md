@@ -1,3 +1,5 @@
+## SonarQube Configuration 
+
 1. Create Sonar cloud account on https://sonarcloud.io
 2. Generate an Authentication token on SonarQube
     Account --> my account --> Security --> Generate Tokens 
