@@ -17,7 +17,7 @@ spec:
       - name: jfrogcred
       containers:
       - name:  valaxy-rtp
-        image: valaxy01.jfrog.io/valaxy-docker/ttrend/2.0.2
+        image: valaxy01.jfrog.io/valaxy-docker/ttrend:2.1.2
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
