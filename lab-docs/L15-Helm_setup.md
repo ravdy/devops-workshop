@@ -11,7 +11,7 @@
    helm version
    helm list
    ```
-1. Download .kube/config file to build the node 
+1. [optional] Download .kube/config file to build the node 
    ```sh
    aws eks update-kubeconfig --region ap-south-1 --name ed-eks-01
    ```
@@ -25,7 +25,7 @@
    helm search repo stable
    ```
 
-1. Install msql charts on Kubernetes 
+1. Install mysql charts on Kubernetes 
    ```sh 
    helm install demo-mysql stable/mysql 
    ```
