@@ -36,18 +36,18 @@
    https://<ELB>:9090
 
 7. Check for node_load15 executor to check cluster monitoring 
-8. 
-9. We check similar graphs in the Grafana dashboard itself. for that, we should change the service type of Grafana to LoadBalancer
+
+8. We check similar graphs in the Grafana dashboard itself. for that, we should change the service type of Grafana to LoadBalancer
    ```sh 
    kubectl edit svc prometheus-grafana
    ```
 
-10. To login to Grafana account, use the below username and password 
+9.  To login to Grafana account, use the below username and password 
     ```sh
     username: admin
     password: prom-operator
     ```
-11. Here we should check for "Node Exporter/USE method/Node" and "Node Exporter/USE method/Cluter"
+10. Here we should check for "Node Exporter/USE method/Node" and "Node Exporter/USE method/Cluter"
     USE - Utilization, Saturation, Errors
    
-12. Even we can check the behavior of each pod, node, and cluster 
+11. Even we can check the behavior of each pod, node, and cluster 
