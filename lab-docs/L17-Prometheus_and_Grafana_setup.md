@@ -33,7 +33,7 @@
    
    ```
 6. Loginto Prometheus dashboard to monitor application
-   https://<ELB>:9090
+   https://ELB:9090
 
 7. Check for node_load15 executor to check cluster monitoring 
 
@@ -47,7 +47,7 @@
     username: admin
     password: prom-operator
     ```
-10. Here we should check for "Node Exporter/USE method/Node" and "Node Exporter/USE method/Cluter"
+10. Here we should check for "Node Exporter/USE method/Node" and "Node Exporter/USE method/Cluster"
     USE - Utilization, Saturation, Errors
    
 11. Even we can check the behavior of each pod, node, and cluster 
