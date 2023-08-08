@@ -26,9 +26,8 @@ resource "aws_security_group" "demo-sg" {
     to_port          = 0
     protocol         = "-1"
     cidr_blocks      = ["0.0.0.0/0"]
-
+  }  
   tags = {
     Name = "ssh-port"
   }
-}
 }
